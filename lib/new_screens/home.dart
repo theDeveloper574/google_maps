@@ -1,4 +1,4 @@
-import 'package:assign/detailed.dart';
+import 'package:assign/new_screens/detailed.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -22,18 +22,9 @@ class _HomeState extends State<Home> {
                 itemCount: snapshot.data.docs.length,
                 itemBuilder: (context, index) {
                   DocumentSnapshot document = snapshot.data.docs[index];
-                  return InkWell(
-                    onTap: () {
-                      print(document['name']);
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => Detailed(document['id'])));
-                    },
-                    child: Card(
-                        margin: EdgeInsets.symmetric(vertical: 10),
-                        child: Text(document['name'])),
-                  );
+                  return Card(
+                      margin: EdgeInsets.symmetric(vertical: 10),
+                      child: Text(document['name']));
                 });
           }
         },

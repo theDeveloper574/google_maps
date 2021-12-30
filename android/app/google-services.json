@@ -1,70 +1,41 @@
 {
   "project_info": {
-    "project_number": "115291339800",
-    "project_id": "matmath-ef455",
-    "storage_bucket": "matmath-ef455.appspot.com"
+    "project_number": "900777555358",
+    "project_id": "myfirstpro1-87a95",
+    "storage_bucket": "myfirstpro1-87a95.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:115291339800:android:3e813a86f5edd0ea3f576d",
+        "mobilesdk_app_id": "1:900777555358:android:0fc2da603cdaf70e9a928f",
         "android_client_info": {
           "package_name": "com.example.assign"
         }
       },
       "oauth_client": [
         {
-          "client_id": "115291339800-uhbk92q59mmh31d6oqpjvgriihlm6t2n.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAzqctWLFWjtj5wx_Kes30eoi81hUGeDDA"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "115291339800-uhbk92q59mmh31d6oqpjvgriihlm6t2n.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:115291339800:android:41374f22f9f2e8683f576d",
-        "android_client_info": {
-          "package_name": "com.math.matmath"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "115291339800-10i36gjqvf474id3bq0ms9o01o5vh16c.apps.googleusercontent.com",
+          "client_id": "900777555358-es4jqr2poimrvak8s8dbbve47l0n3nr3.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.math.matmath",
-            "certificate_hash": "ba470a953a7fdee5db77d36aea308154e9b9f48d"
+            "package_name": "com.example.assign",
+            "certificate_hash": "8634a7b716d70be2f125ccb76694e20071f1f8f4"
           }
         },
         {
-          "client_id": "115291339800-uhbk92q59mmh31d6oqpjvgriihlm6t2n.apps.googleusercontent.com",
+          "client_id": "900777555358-o56bipnqfc1i89alduieoffnu14q786e.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAzqctWLFWjtj5wx_Kes30eoi81hUGeDDA"
+          "current_key": "AIzaSyB6p9zZeNoksxDUhdFxp1YbGj88mO-eeuw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "115291339800-uhbk92q59mmh31d6oqpjvgriihlm6t2n.apps.googleusercontent.com",
+              "client_id": "900777555358-o56bipnqfc1i89alduieoffnu14q786e.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

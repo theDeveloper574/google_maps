@@ -1,12 +1,12 @@
 import 'package:assign/google_map/screen3.dart';
-import 'package:assign/home.dart';
-import 'package:assign/snapEffect.dart';
+import 'package:assign/new_screens/home.dart';
+import 'package:assign/new_screens/snapEffect.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'google__map.dart';
+import 'Food_app/welcome_screen.dart';
 import 'google_map/screen1.dart';
-import 'google_map/screen2.dart';
-import 'new_screens/screen1.dart';
+import 'new_screens/detailed.dart';
+import 'new_screens/list_view12.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -36,7 +36,7 @@ class _MyAppState extends State<MyApp> {
         // primaryColor:  Colors.white
       ),
       debugShowCheckedModeBanner: false,
-      home: ScreenGoogle1(),
+      home: ListView1(),
     );
   }
 }

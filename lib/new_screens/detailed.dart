@@ -1,4 +1,4 @@
-import 'package:assign/example.dart';
+import 'package:assign/new_screens/example.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
@@ -16,7 +16,7 @@ class _DetailedState extends State<Detailed> {
       body: StreamBuilder(
         stream: FirebaseFirestore.instance
             .collection('All Formulas')
-            .where('category', isEqualTo: widget.name.toLowerCase().toString())
+            // .where('category', isEqualTo: widget.name.toLowerCase().toString())
             .snapshots(),
         builder: (BuildContext context, AsyncSnapshot<dynamic> snapshot) {
           if (!snapshot.hasData) {
